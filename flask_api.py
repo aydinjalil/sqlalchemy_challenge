@@ -43,8 +43,8 @@ def home():
         f"/api/v1.0/precipitation ---- returns a JSON list of precipitation data for the dates between 8/23/16 and 8/23/17.<br/><br/>"
         f"/api/v1.0/stations ---- returns a JSON list of the weather stations.<br/><br/>"
         f"/api/v1.0/tobs ---- returns a JSON list of temperature observations for each station between the start and end dates.<br/><br/>"
-        f"/api/v1.0/start ---- returns a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start date.<br/><br/>"
-        f"/api/v1.0/start/end` ---- returns a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start-end range.<br/><br/>"
+        f"/api/v1.0/start ---- returns a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start date.<br/><br/>Use single date in format Y-m-d(i.e 2017-01-01) to access weather stats from given date to the end date of the dataset<br/><br/>"
+        f"/api/v1.0/start/end` ---- returns a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start-end range.<br/><br/>Use two dates in format Y-m-d (i.e. 2016-05-01/2017-01-01) to access the weather stats for the given range<br/><br/>"
     )
 
 
